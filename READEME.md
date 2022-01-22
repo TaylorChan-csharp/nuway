@@ -8,7 +8,7 @@ Under development...
 
 # SUMMARY
 
-This project depends on [.NET6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) , maybe next version well be having standard version :) .
+This project depends on [.NET6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) , next iteration well be having standard edition, coming soon too :) .
 
 Do you have such thoughts in your mind,In your project or your development process : 
 

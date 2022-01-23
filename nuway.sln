@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{235528B2-E8E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{69D30DE0-4352-461D-A2FD-30B2D6270830}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuway", "src\Nuway\Nuway.csproj", "{39815B9E-EE8D-415C-91F7-11D5A54541F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nuway", "src\Nuway\Nuway.csproj", "{39815B9E-EE8D-415C-91F7-11D5A54541F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuway.Demo", "src\Nuway.Demo\Nuway.Demo.csproj", "{EBBED308-5FC3-461B-B77A-EB0ECF9C1436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{39815B9E-EE8D-415C-91F7-11D5A54541F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39815B9E-EE8D-415C-91F7-11D5A54541F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39815B9E-EE8D-415C-91F7-11D5A54541F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBBED308-5FC3-461B-B77A-EB0ECF9C1436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBED308-5FC3-461B-B77A-EB0ECF9C1436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBED308-5FC3-461B-B77A-EB0ECF9C1436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBED308-5FC3-461B-B77A-EB0ECF9C1436}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{39815B9E-EE8D-415C-91F7-11D5A54541F4} = {235528B2-E8E1-4526-8ED4-E972669EC83A}
+		{EBBED308-5FC3-461B-B77A-EB0ECF9C1436} = {235528B2-E8E1-4526-8ED4-E972669EC83A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B63C998F-F862-413B-90E0-C33F4B24899A}

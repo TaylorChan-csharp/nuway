@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Nuway
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    public static class ServiceCollectionExtension
+    public class NuwayOptions
     {
-
+        public string Name { get; set; }= "Nuway";
     }
 }

@@ -33,9 +33,7 @@ namespace Nuway
         {
             NuwayOptions nuwayOptions = new NuwayOptions();
             options(nuwayOptions);
-            service.AddSingleton<NuwayOptions>(f => {
-                return nuwayOptions;
-            });
+            service.AddSingleton<NuwayOptions>(f => nuwayOptions);
             return service;
         }
         /// <summary>
@@ -46,6 +44,7 @@ namespace Nuway
         public static IApplicationBuilder UseNuway(this IApplicationBuilder app)
         {
             app.UseMiddleware<NuwayMiddleware>();
+            
             return app;
         }
     }
